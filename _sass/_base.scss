@@ -91,14 +91,15 @@ blockquote {
 }
 
 // Profile
-
 .profile {
   width: 100%;
 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 0.83rem;
     p {
       display: inline-block;
       margin: 0;
@@ -114,7 +115,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 40%;
     .address {
       p { display: block; }
     }

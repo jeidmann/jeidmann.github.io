@@ -2,96 +2,88 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Johanna Eidmann
+    - name: E-mail
+      value: johanna.eidmann[at]gmail.com
+    - name: Mobile
+      value: 781.640.4360
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Geosciences Modeling/Analytics Intern
+      institution: ConocoPhillips, Houston, Texas
+      year: May - August 2021
+      description:
+        - Developed a satellite remote sensing-based workflow that predicts the location and timing of landslides to mitigate further damages to a pipeline in Southeast Asia that had suffered >$1Bn in losses
+        - Leveraged InSAR analysis, Principal Components Analysis, and machine learning techniques to determine the best satellite products to use for the landslide detection workflow
+        - Created a statistically robust methodology, incorporating existing knowledge of landslide occurrences with landslide likelihood analysis, to produce a hazard model identifying high-risk areas to enable pipeline workers to pre-emptively address and mitigate pipeline hazards
+    - title: Ph.D. and M.S. Researcher
+      institution: Colorado State University, Geology Department, Fort Collins, Colorado
+      year: 2016-2022
+      description:
+        - Produced a MATLAB-based routine (>600 lines of code) that utilizes high-resolution DEMs to efficiently model bedrock channel geometry for different storm scenarios across Puerto Rico 
+        - Researched post-flood channel response & reservoir delta evolution to improve reservoir management strategies and limit storage loss for the City of Longmont (reservoir servicing >100,000 residents)
+        - Analyzed NASA satellite data to conduct spatial and time-series statistical analysis to quantify vegetation recovery after a fire based on pre-fire forest treatment methods
+        - Attained a commercial drone license to conduct surveys and build high-resolution terrain models
+        - Applied Python3 with ArcGIS to increase analytical efficiency and extend high-resolution satellite analysis across a large scale (100s to 1,000 mi2), allowing for landscape-scale analysis
+        - Secured over $92,000 in research funding from 16 fellowships and scholarships
+    - title: Graduate Teaching Assistant and Student Mentor
+      institution: Colorado State University, Geology Department, Fort Collins, Colorado
+      year: 2016-2022
+      description:
+        - Taught over 360 students in 11 laboratory sections within the Geosciences department (Introductory Geology for Majors, Geomorphology, Earth History)
+        - Mentored 4 senior level undergraduates in their independent studies and post-college plans
+        - Organized and coordinated for 3 years the Geoslam—an event of short presentations during which graduate students share their research—to improve the department’s culture and knowledge sharing
+    - title: Senior Engineering Technician II
+      institution: Geosyntec Consultants, Acton, Massachusetts
+      year: 2014-2016
+      description:
+       - Led groundwater monitoring, soil logging, soil sampling, sub-slab sampling, well installation, & in-situ bioremediation fieldwork at 12 Superfund and Brownfields sites across 7 states
+       - Analyzed soil mercury data using statistical models to produce a recommended sampling approach, and authored a memorandum for the Maine Department of Environmental Protection communicating and synthesizing the approach
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D., Geosciences
+      institution: Colorado State University, Fort Collins, Colorado
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
+        - GPA 3.98/4.0
+        - Completed Graduate Certificate in Data Analysis
+        - Dissertation titled 'Exploring New Approaches to Understanding Channel Width and Erosion Rates in Bedrock Rivers, Puerto Rico, USA'
+    - title: M.S., Geosciences
+      institution: Colorado State University, Fort Collins, Colorado
+      year: 2016-2018
+      description:
+        - GPA 4.0/4.0
+        - Thesis titled 'Channel Rsponse & Reservoir Delta Evolution Following an Extreme Flood'
+    - title: B.S., Geosciences and Environmental Policy
+      institution: Williams College, Williamstown, Massachusetts
+      year: 2010-2014
+      description:
+        - GPA 3.8/4.0
+        - Awards -  Cum Laude, Highest Honors for thesis research
+    - title: Visiting Student in Geology
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      year: 2013
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills and Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Relevant Coursework
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Geology. Remote Sensing for Geoscientists, Fluvial Geomorphology, Hydrogeology, Tectonic Geomorphology, Hydrogeology, Sedimentation & Erosion, Solid Earth Inverse Methods
+        - Other. Data visualization, Applied Multivariate Analysis, Geostatistics, Morphodynamic Modeling, IoT Sensors
+    - title: Computer
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Experience with Python3(includes NumPy, Pandas, Matplotlib), SQL, R, MATLAB, Git, ArcGIS (desktop and Pro) with SVM machine learning models, QGIS, Microsoft Suite (Excel, Powerpoint, Word), Earth Volumentric Studio, Agisoft Metashape Structure-from-Motion, SGeMS
+    - title: Statistical Techniques
+      items:
+        - General linear models, hypothesis testing, multivariate analysis, model selection, kriging, cluster analysis, time series analysis, Markov chain Monte Carlo, logistic regression, Gaussian Process
+    - title: Languages
+      items:
+        - English (Native), German (Native), Spanish (Limited Working Proficiency)
+    - title: Personal Interests
+      items:
+        - Trail running, backcountry skiing, building IoT stations to automate tasks (temperature-activated heat lamp, automatic dog ball throwing device, IFTTT alert device, low-power soil moisture data loggers)

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Geologist! Research Scientist, Data Analyst, Creative Thinker
+subtitle: Geologist, Research Scientist, Data Analyst, Creative Thinker
 
 profile:
   align: right
@@ -19,16 +19,17 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello! I am a recent `Ph.D.` graduate in the Geosciences at Colorado State University. I embrace the `growth mindset` and am always looking to build upon and learn new skills! I love working with data in `efficient` and `analytical` ways. I am especially excited about the prospect of learning as much as we can through combining different types of data (qualitative, quanitative, and through satellite imagery) in both space and time.
 
+I have spent the past 4+ years of my Ph.D. conducting data analysis on large and disparate data sets. I am especially experienced in `data analysis`, `statistical analysis`, `remote sensing`, and `data visualization`. Please visit the [<b><u>Projects</u></b>](/projects/) page to find out more about the things that I have worked on.
 <h4> Background </h4>
 I was born in Germany and grew up in the Boston area. I grew up running cross country and road races (since the 3rd grade) and played the viola in the Boston Youth Symphony Orchestra. 
 
 I spent my college years exploring the geology of the Berkshires at `Williams College` in Western Massachusetts. However, I also managed to explore Geology across the world, taking part in a field course that traveled across the United States (a camping roadtrip from Pennsylvania to Montana), studying abroad at `ETH Zurich` in Switzerland, and performing undergrad thesis research in Svalbard, Norway (funded through the NSF/REU and Keck Consortium).
 
-In the years after college, I worked at `Geosyntec Consultants`--an environmental consulting firm-- working to remediate contaminated land. Projects brought me to New Jersey, Connecticut, Pennsylvania, New Hampshire, Massachusetts, Vermont, and Maine.
+In the years after college, I worked at `Geosyntec Consultants`--an environmental consulting firm-- working to remediate contaminated land. Projects brought me to New Jersey, Connecticut, Pennsylvania, New Hampshire, Massachusetts, Vermont, and Maine. One particular project along the Penobscot River in Bangor Maine insighted an interest in sediment transport and modeling that I chose to pursue.
 
-Missing `MS` information here.
+In 2016 I moved to Fort Collins to pursue my `M.S.` degree at Colorado State University. During my degree, I worked alongside the City of Longmont to better inform them of the post-flood sediment dynamics of their drinking water reservoir. My research allowed them to understand how snowmelt affected sediment input, and how reservoir management activities impacted this sediment remobilization within the reservoir.
 
-Throughout my Ph.D. I traveled to Puerto Rico, initially with the goal of better predicting hurricane-induced landsliding. As the COVID-19 pandemic hit, however, the ability to do fieldwork became quite limited. This led me to take a step back and look at the bigger picture of landscape dynamics in Puerto Rico. As a result, I dove into analysis of `remote sensing` imagery to extract channel measurements (in particular bedrock river width) to better understand landscape-scale differences in the rivers that shape the landscape. This research involved me `developing my own new method` of channel width extraction, automating the extraction process through creating a routine (comprised of coding, data visualization, and a series of functions), and explaining the process through a comprehensive User Manual. Having developed this process, I then extracted the channel width at 1-meter resolution from >10,000 locations across the entire island of Puerto Rico (3,500 square miles)!
+Throughout my `Ph.D.` research, I sought to enhance my coding and analytical skills with large data sets. For my research, I traveled to Puerto Rico, initially with the goal of better predicting hurricane-induced landsliding. As the COVID-19 pandemic hit, however, the ability to do fieldwork became quite limited. This led me to take a step back and look at the bigger picture of landscape dynamics in Puerto Rico. As a result, I dove into analysis of `remote sensing` imagery to extract channel measurements (in particular bedrock river width) to better understand landscape-scale differences in the rivers that shape the landscape. This research involved me `developing my own new method` of channel width extraction, automating the extraction process through creating a routine (comprised of coding, data visualization, and a series of functions), and explaining the process through a comprehensive User Manual. Having developed this process, I then extracted the channel width at 1-meter resolution from >10,000 locations across the entire island of Puerto Rico (3,500 square miles)!
 
 <h4> Fun Facts About Me </h4>
 
@@ -88,7 +89,7 @@ Throughout my Ph.D. I traveled to Puerto Rico, initially with the goal of better
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/canoe.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.html path="assets/img/Canoe.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-4">
         {%- include figure.html path="assets/img/Charly.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
