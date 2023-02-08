@@ -2,24 +2,100 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Geologist, Research Scientist, Data Analyst, Creative Thinker
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_2936.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>781.640.4360</p>
+    <p>johanna.eidmann[at]gmail.com</p>
+    <p>Fort Collins, Colorado</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hello! I am a recent `Ph.D.` graduate in the Geosciences at Colorado State University. I embrace the `growth mindset` and am always looking to build upon and learn new skills! I love working with data in `efficient` and `analytical` ways. I am especially excited about the prospect of learning as much as we can through combining different types of data (qualitative, quanitative, and through satellite imagery) in both space and time.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<h4> Background </h4>
+I was born in Germany and grew up in the Boston area. I grew up running cross country and road races (since the 3rd grade) and played the viola in the Boston Youth Symphony Orchestra. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I spent my college years exploring the geology of the Berkshires at `Williams College` in Western Massachusetts. However, I also managed to explore Geology across the world, taking part in a field course that traveled across the United States (a camping roadtrip from Pennsylvania to Montana), studying abroad at `ETH Zurich` in Switzerland, and performing undergrad thesis research in Svalbard, Norway (funded through the NSF/REU and Keck Consortium).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In the years after college, I worked at `Geosyntec Consultants`--an environmental consulting firm-- working to remediate contaminated land. Projects brought me to New Jersey, Connecticut, Pennsylvania, New Hampshire, Massachusetts, Vermont, and Maine.
+
+Missing `MS` information here.
+
+Throughout my Ph.D. I traveled to Puerto Rico, initially with the goal of better predicting hurricane-induced landsliding. As the COVID-19 pandemic hit, however, the ability to do fieldwork became quite limited. This led me to take a step back and look at the bigger picture of landscape dynamics in Puerto Rico. As a result, I dove into analysis of `remote sensing` imagery to extract channel measurements (in particular bedrock river width) to better understand landscape-scale differences in the rivers that shape the landscape. This research involved me `developing my own new method` of channel width extraction, automating the extraction process through creating a routine (comprised of coding, data visualization, and a series of functions), and explaining the process through a comprehensive User Manual. Having developed this process, I then extracted the channel width at 1-meter resolution from >10,000 locations across the entire island of Puerto Rico (3,500 square miles)!
+
+<h4> Fun Facts About Me </h4>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+        {%- include figure.html path="assets/img/Family.jpeg" title="example image" class="img-fluid rounded z-depth-1" caption="Our family inludes three large dogs"%} 
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-sm-center">
+    <div class="col-sm-3">
+        {%- include figure.html path="assets/img/Quail2.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+    </div>
+    <div class="col-sm-3">
+        {%- include figure.html path="assets/img/Coop.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+    <div class="col-sm-3">
+        {%- include figure.html path="assets/img/Quail3.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+    <div class="col-sm-3">
+        {%- include figure.html path="assets/img/Quail4.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+  </div>
+  <center>...and four quail</center>
+</div>
+
+<div class="container">
+  <div class="row justify-content-sm-center">
+    <div class="col col-sm-4">
+        {%- include figure.html path="assets/img/image1165.png" title="example image" class="img-fluid rounded z-depth-1"%} 
+    </div>
+    <div class="col col-sm-4">
+        {%- include figure.html path="assets/img/remodel2.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+  </div>
+  <center>I enjoy remodeling our home (see <b>Instagram</b> link below!)</center>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+        {%- include figure.html path="assets/img/Skiing.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+    </div>
+    <div class="col-sm-4">
+        {%- include figure.html path="assets/img/IceFishing.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+    <div class="col-sm-4">
+        {%- include figure.html path="assets/img/Percy1.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+  </div>
+  <center>In the winter I enjoy backcountry skiing and ice fishing. I also like crafting silly things such as mailboxes.</center>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+        {%- include figure.html path="assets/img/canoe.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+    </div>
+    <div class="col-sm-4">
+        {%- include figure.html path="assets/img/Charly.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+    <div class="col-sm-4">
+        {%- include figure.html path="assets/img/Garden1.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+    </div>
+  </div>
+  <center>In the summer I enjoy to spend time on the water, go on trail runs, and eat fresh produce from our garden!</center>
+</div>
