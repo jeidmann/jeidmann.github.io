@@ -2,21 +2,9 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Here are some data repositories that I have used.
 nav: true
 nav_order: 3
----
-
-## GitHub users
-
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
-</div>
-{% endif %}
-
 ---
 
 ## GitHub Repositories
@@ -28,3 +16,22 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+
+<h2>Other Repositories</h2>
+<div class="container">
+Code and data associated with the publication titled: <p><i><b> New remote method to systematically extract bedrock channel width of small catchments across large spatial scales using high-resolution digital elevation models </b></i></p>
+  <div class="row">
+    <div class="col">
+        <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KY4KO4">{%- include figure.html path="assets/img/publication_preview/HarvardData.png" title="Harvard Dataverse" class="img-fluid rounded z-depth-1"%}</a>    
+    </div>
+  </div>
+</div>
+
+<div class="container">
+Data associated with the publication titled: <p><i><b> Channel Response and Reservoir Delta Evolution from Source to Sink Following an Extreme Flood</b></i></p>
+  <div class="row">
+    <div class="col">
+        <a href="https://dataverse.harvard.edu/dataverse/Eidmann-et-al-2021">{%- include figure.html path="assets/img/publication_preview/HarvardData.png" title="Harvard Dataverse" class="img-fluid rounded z-depth-1"%}</a> 
+    </div>
+  </div>
+</div>
