@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: understanding what drives bedrock channel width
+description: Island-wise analysis in Puerto Rico, exploring >40,000 locations across >200 km^2 to understand what factors shape the rivers in channels.
+img: assets/img/PR_River.png
+importance: 4
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

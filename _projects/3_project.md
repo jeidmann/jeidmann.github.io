@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: low-cost & efficient weather stations for research
+description: A collaboration with Jay Ham's laboratory (CSU, Soil and Crop Sciences) to implement low-cost sensors across Puerto Rico.
+img: assets/img/soil_moisture.png
+#redirect: https://unsplash.com
 importance: 3
 category: work
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: how pre-emptive fire treatment affects wildfires
+description: Spatial and temporal analysis of the Rodeo-Chideky fire using Landsat imagery and vegetation regrowth (NDVI).
+img: assets/img/wildfire.png
 importance: 2
 category: work
 ---

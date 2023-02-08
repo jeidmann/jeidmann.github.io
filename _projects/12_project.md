@@ -1,8 +1,8 @@
 ---
 layout: page
-title: the impact of reservoir management on sediment mobility
-description: Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.
-img: assets/img/Difference.png
+title: quantifying sedimentation using SfM
+description: Volumetrically quantified continue channel sedimentation and change by building and differencing high-resolution 3-d models through drone imagery and Structure-from-Motion analysis.  
+img: assets/img/Capture.png
 importance: 5
 category: work
 ---

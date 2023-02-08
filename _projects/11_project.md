@@ -1,8 +1,8 @@
 ---
 layout: page
-title: the impact of reservoir management on sediment mobility
-description: Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.
-img: assets/img/Difference.png
+title: Predicting sediment movement in rivers
+description: I tagged 360 rocks with RFID tags and deployed them in the North St. Vrain River. We track these clasts, and model and statistically analyze sediment transportation. 
+img: assets/img/Fall2019pts.png
 importance: 5
 category: work
 ---

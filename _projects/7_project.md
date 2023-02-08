@@ -1,10 +1,10 @@
 ---
 layout: page
-title: the impact of reservoir management on sediment mobility
-description: Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.
-img: assets/img/Difference.png
-importance: 5
-category: work
+title: automated dog ball throwing device
+description: designed and built a dog throwing device for dog self-entertainment.
+img: assets/img/dog_throw.png
+importance: 1
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

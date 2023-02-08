@@ -1,9 +1,9 @@
 ---
 layout: page
-title: the impact of reservoir management on sediment mobility
-description: Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.
-img: assets/img/Difference.png
-importance: 5
+title: Bringing topotoolbox to Python
+description: Topotoolbox is an open-source topographic analysis program that only works in MATLAB. I am working with Dr. Sean Gallen to re-code programs into Python3. 
+img: assets/img/TopoToolbox.png
+importance: 2
 category: work
 ---
 

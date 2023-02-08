@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Automated Bedrock Channel Width Extraction
+description: Remotely extract wetted channel width at desired discharge scenarios without going into the field.
+img: assets/img/BR_Width.png
 importance: 1
 category: work
 ---

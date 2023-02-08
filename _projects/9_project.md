@@ -1,10 +1,10 @@
 ---
 layout: page
-title: the impact of reservoir management on sediment mobility
-description: Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.
-img: assets/img/Difference.png
-importance: 5
-category: work
+title: temperature sensitive heat system
+description: To limit fire hazards of a heat lamp in a quail coop, I designed and implemented a temperature-regulated heat lamp to keep our egg-laying girls warm.
+img: assets/img/quail.png
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

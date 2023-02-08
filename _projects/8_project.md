@@ -1,10 +1,10 @@
 ---
 layout: page
-title: the impact of reservoir management on sediment mobility
-description: Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.
-img: assets/img/Difference.png
-importance: 5
-category: work
+title: hot tub temperature alert system
+description: Get a text notification when the hot tub falls below a certain limit, no matter where you are in the world! Using 'If That Then' technology.
+img: assets/img/hot_tub.png
+importance: 2
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
