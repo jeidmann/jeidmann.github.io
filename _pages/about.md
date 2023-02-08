@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Geologist, Research Scientist, Data Analyst, Creative Thinker
+subtitle: Geologist! Research Scientist, Data Analyst, Creative Thinker
 
 profile:
   align: right
