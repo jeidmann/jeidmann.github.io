@@ -2,4 +2,8 @@ github_users:
   - jeidmann
 
 github_repos:
-
+  - jeidmann/ArduinoFiles
+  - jeidmann/PR_Island_NDVI_Analysis
+  - jeidmann/PR_Lidar_Download
+  - jeidmann/ArcPy_Files
+  - jeidmann/TopoToolboxToPython
