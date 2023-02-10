@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Below, are some repositories that apply to the projects that I have worked on.
+description:
 nav: true
 nav_order: 3
 ---
@@ -18,7 +18,7 @@ nav_order: 3
 {% endif %}
 
 <h2>Other Repositories</h2>
-<h4>Click on the dataverse icons to access links to the following repositories.</h4>
+<i><b>Click on the dataverse icons to access links to the following repositories.</i></b>
 <div class="container">
 Code and data associated with the publication titled: <p><i><b> New remote method to systematically extract bedrock channel width of small catchments across large spatial scales using high-resolution digital elevation models </b></i></p>
   <div class="row">
