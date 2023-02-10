@@ -50,10 +50,10 @@ Throughout my `Ph.D.` research, I sought to enhance my coding and analytical ski
         {%- include figure.html path="assets/img/Coop.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/Quail3.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/Quail4.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/Quail4.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/QuailEggs.png" title="example image" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>...and four quail</center>

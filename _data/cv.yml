@@ -71,13 +71,17 @@
 - title: Skills and Interests
   type: nested_list
   contents:
+    - title: Certificates
+      items: 
+        - CSU Graduate Certificate in Statistics and Data Analysis
+        - IBM Data Science Professional Certificate (Python for Data Science, AI & Developement, Databases and SQL for Data Science with Python, Machine Learning with Python)
     - title: Relevant Coursework
       items: 
         - Geology. Remote Sensing for Geoscientists, Fluvial Geomorphology, Hydrogeology, Tectonic Geomorphology, Hydrogeology, Sedimentation & Erosion, Solid Earth Inverse Methods
         - Other. Data visualization, Applied Multivariate Analysis, Geostatistics, Morphodynamic Modeling, IoT Sensors
     - title: Computer
       items:
-        - Experience with Python3(includes NumPy, Pandas, Matplotlib), SQL, R, MATLAB, Git, ArcGIS (desktop and Pro) with SVM machine learning models, QGIS, Microsoft Suite (Excel, Powerpoint, Word), Earth Volumentric Studio, Agisoft Metashape Structure-from-Motion, SGeMS
+        - Experience with Python3(includes NumPy, Pandas, Matplotlib), SQL, R, MATLAB, Git, Machine Learning algorithms (KNN, Decision Trees, SVM, k-means clustering), ArcGIS (desktop and Pro) with SVM machine learning models, QGIS, Microsoft Suite (Excel, Powerpoint, Word), Earth Volumentric Studio, Agisoft Metashape Structure-from-Motion, SGeMS
     - title: Statistical Techniques
       items:
         - General linear models, hypothesis testing, multivariate analysis, model selection, kriging, cluster analysis, time series analysis, Markov chain Monte Carlo, logistic regression, Gaussian Process

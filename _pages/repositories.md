@@ -18,7 +18,7 @@ nav_order: 3
 {% endif %}
 
 <h2>Other Repositories</h2>
-<i><b>Click on the dataverse icons to access links to the following repositories.</i></b>
+<u><b>Click on the dataverse icons to access links to the following repositories.</u></b>
 <div class="container">
 Code and data associated with the publication titled: <p><i><b> New remote method to systematically extract bedrock channel width of small catchments across large spatial scales using high-resolution digital elevation models </b></i></p>
   <div class="row">
