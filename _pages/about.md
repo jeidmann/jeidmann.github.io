@@ -36,7 +36,7 @@ Throughout my `Ph.D.` research, I sought to enhance my coding and analytical ski
 <div class="container">
   <div class="row">
     <div class="col">
-        {%- include figure.html path="assets/img/Family.jpeg" title="example image" class="img-fluid rounded z-depth-1" caption="Our family inludes three large dogs"%} 
+        {%- include figure.html path="assets/img/Family.jpeg" class="img-fluid rounded z-depth-1" caption="Our family inludes three large dogs"%} 
     </div>
   </div>
 </div>
@@ -44,16 +44,16 @@ Throughout my `Ph.D.` research, I sought to enhance my coding and analytical ski
 <div class="container">
   <div class="row justify-content-sm-center">
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/Quail2.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.html path="assets/img/Quail2.jpg" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/Coop.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/Coop.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/Quail4.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/Quail4.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/QuailEggs.png" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/QuailEggs.png" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>...and four quail</center>
@@ -62,10 +62,10 @@ Throughout my `Ph.D.` research, I sought to enhance my coding and analytical ski
 <div class="container">
   <div class="row justify-content-sm-center">
     <div class="col col-sm-4">
-        {%- include figure.html path="assets/img/image1165.png" title="example image" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.html path="assets/img/image1165.png" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col col-sm-4">
-        {%- include figure.html path="assets/img/remodel2.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/remodel2.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>I enjoy remodeling our home (see <b>Instagram</b> link below!)</center>
@@ -74,13 +74,13 @@ Throughout my `Ph.D.` research, I sought to enhance my coding and analytical ski
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Skiing.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.html path="assets/img/Skiing.jpg" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/IceFishing.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/IceFishing.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Percy1.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/Percy1.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>In the winter I enjoy backcountry skiing and ice fishing. I also like crafting silly things such as mailboxes.</center>
@@ -89,13 +89,13 @@ Throughout my `Ph.D.` research, I sought to enhance my coding and analytical ski
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Canoe.jpg" title="example image" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.html path="assets/img/Canoe.jpg" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Charly.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/Charly.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Garden1.jpg" title="example image" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.html path="assets/img/Garden1.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>In the summer I enjoy to spend time on the water, go on trail runs, and eat fresh produce from our garden!</center>

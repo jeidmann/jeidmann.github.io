@@ -113,7 +113,7 @@ blockquote {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
   .profile {
     width: 40%;
     .address {
@@ -321,9 +321,9 @@ footer.sticky-bottom {
 
 // Repositories
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .repo {
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
@@ -418,7 +418,11 @@ footer.sticky-bottom {
 
 
 // Projects
-
+@media (min-width: 700px) {
+  .repo {
+    max-width: 50%;
+  }
+}
 .projects {
   a {
     text-decoration: none;
