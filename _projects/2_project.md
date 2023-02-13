@@ -73,11 +73,11 @@ On average, areas identified as 'Prescribed Burns' had healthier vegetation than
 
 The time since fire treatment, however, appears to make a difference. The average NDVI between areas treated 6-7 years pre-fire is not significantly different from those without fire treatments. Areas more recently treated (1-2 years pre-fire) have significantly higher average NDVI values. These conclusions are supported by Finney et al. (2005)'s findings.
 
-<div class="container">
-    <video width=750 autoplay loop muted>   
-    <source src="/assets/img/NDVI_CHange.mp4" type="video/mp4">
-    </video>
-</div> 
+<div class="float-center mr-4 mb-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/NDVI_CHange.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <h4>Changes in Landcover</h4>
 Landcover Classification was extracted from MODIS Terra and Aqua reflectance data at 250m resolution, and categorized according to the IGBP classification. The proportion area covered by each land classification was compared across the 8 analyzed areas.
