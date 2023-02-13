@@ -73,7 +73,7 @@ On average, areas identified as 'Prescribed Burns' had healthier vegetation than
 
 The time since fire treatment, however, appears to make a difference. The average NDVI between areas treated 6-7 years pre-fire is not significantly different from those without fire treatments. Areas more recently treated (1-2 years pre-fire) have significantly higher average NDVI values. These conclusions are supported by Finney et al. (2005)'s findings.
 
-<div class="float-center mr-4 mb-4">
+<div class="container">
     <video width=750 autoplay loop muted>   
     <source src="/assets/img/NDVI_Change.mov">
     </video>
