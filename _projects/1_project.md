@@ -28,12 +28,14 @@ In this project, I develop a `new method` to `remotely` obtain bedrock channel w
     </div>
 </div>
 
+<h5> General Overview </h5>
 The cornerstone of this analysis is the use of a high-resolution digital elevation model (`DEM`). Over the past few years, an there has been an increased effort to acquire high-resolution DEMs through LiDAR flight campaigns. The U.S. Geological Survey's 3D Elevation Program (`3DEP`), for example, will give provide `free access` to high-resolution LiDAR across the continental United States within the next year. With this in mind, this method will be able to be applied to nearly any location in the United States.
 
 A `first step` of the project is to use the DEM to learn more about an area and determine sampling locations. One challenge of this analysis is to discern discharge across each sampling location at a comparible return interval (e.g. each location's 1-year RI discharge is different, based on upstream watershed area). As a result, we first model the relationship between <i> known </i> locations (e.g. USGS gauging stations) and the precipitation record. We then derive the `specific precipitation` (e.g. precipitation total per square meter), and combine this value with each location's upstream drainage area to derive the estimated discharge at that location.
 
 To perform the `model simulation`, we need to create shapefiles of the river at each sampling point, and model channel width across the desired stream reach. Although it is possible to manually do this, doing so is inefficient at a large scale. As a result, we derive a channel segment of desired length at each location, and define cross sections perpendicular to the river at a desired increment.
 
+<h5> In-Depth Method Overview </h5>
 <i><b> Follow the mark-up document below to step through the code of the process described above! <b><i>
 
 {% raw %}
@@ -235,5 +237,15 @@ Once created, all of the stream shapefiles are uploaded into HEC-RAS and simulat
 <div class="caption">
     The HEC-RAS output, showing water surface elevation from a bird's-eye view (Left) and from a cross-section view (Right).
 </div>
+
+<h4> Method Verification </h4>
+A comparison between modeled HEC-RAS width values in relation to USGS field measurements collected at comparable discharge values (Mean Annual Discharge) show that the method does a good job at predicting channel width. Most modeled width measurements (including error) fall on the 1:1 line (Figure a), indicating that the model generally does a good job at predicting channel width measurements across different locations at the Mean Annual Discharge.
+
+In addition, I compared the modeled HEC-RAS width values in relation to USGS gauging station field measurements. Figure b shows the modeled and measured channel width at comparable discharge values (Mean Annual Discharge) in relation to drainage area. Error bars indicate the maximum and minimum USGS field measurement values at each station. Most HEC-RAS width measurements fall within the variability in USGS field measurements collected at a comparable discharge across a wide span of drainage areas.
+
+<div class="w-100 p-2">
+    <div class="float-center">
+        {% include figure.html path="assets/img/Verification.png" class="img-fluid rounded z-depth-1" %}
+    </div>
 
 <b> For more details about this project, read the paper titled [<b><u>New remote method to systematically extract bedrock channel width of small catchments across large spatial scales using high-resolution digital elevation models</u></b>](/publications)</b>

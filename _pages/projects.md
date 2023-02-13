@@ -2,7 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: I have worked on a breadth of interesting projects--experiences gained through fellowships, my own research, and hobby projects. Browse below to see what I have worked on!
+description: I have worked on a breadth of interesting projects--experiences gained through fellowships, my own research, and hobby projects. 
+
+Browse below to see what I have worked on, and click on the project names to learn more about them!
 nav: true
 nav_order: 2
 display_categories: [work, fun]
