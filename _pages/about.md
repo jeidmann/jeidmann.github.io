@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello! I am a recent `Ph.D.` graduate in the Geosciences at Colorado State University. I embrace the `growth mindset` and am always looking to build upon and learn new skills! I love working with data in `efficient` and `analytical` ways. I am especially excited about the prospect of learning as much as I can about various trends through combining different types of data (qualitative, quanitative, and through satellite imagery) in both space and time.
 
-I have spent the past 4+ years of my M.S. and Ph.D. conducting data analysis on large and disparate data sets. I am especially experienced in `data analysis`, `statistical analysis`, `remote sensing`, and `data visualization`. Please visit the [<b><u>Projects</u></b>](/projects/) page to find out more about the things that I have worked on.
+I have spent the past 6+ years of my M.S. and Ph.D. conducting data analysis on large and disparate data sets. I am especially experienced in `data analysis`, `statistical analysis`, `remote sensing`, and `data visualization`. Please visit the [<b><u>Projects</u></b>](/projects/) page to find out more about the things that I have worked on.
 <h4> Background </h4>
 I was born in Germany and grew up in the Boston area. I grew up running cross country and road races (since the 3rd grade) and played the viola in the Boston Youth Symphony Orchestra. 
 
