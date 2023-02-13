@@ -75,7 +75,7 @@ The time since fire treatment, however, appears to make a difference. The averag
 
 <div class="container">
     <video width=750 autoplay loop muted>   
-    <source src="/assets/img/NDVI_CHange.mp4">
+    <source src="/assets/img/NDVI_CHange.mp4" type="video/mp4">
     </video>
 </div> 
 
