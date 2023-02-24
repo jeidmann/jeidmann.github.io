@@ -98,5 +98,5 @@ Throughout my `Ph.D.` research I sought to enhance my coding and analytical skil
         {%- include figure.html path="assets/img/Garden1.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
-  <center>In the summer I enjoy to spend time on the water, go on trail runs, and eat fresh produce from our garden!</center>
+  <center>In the summer I like to spend time on the water, go on trail runs, and eat fresh produce from our garden!</center>
 </div>
