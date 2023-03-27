@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Johanna S. Eidmann
+      value: Johanna Eidmann
     - name: E-mail
       value: johanna.eidmann[at]gmail.com
     - name: Mobile
@@ -10,6 +10,13 @@
 - title: Professional Experience
   type: time_table
   contents:
+      - title: Geosciences Modeling/Analytics Intern
+      institution: ConocoPhillips, Houston, Texas
+      year: May - August 2021
+      description:
+        - Developed a satellite remote sensing-based workflow that predicts the location and timing of landslides to mitigate further damages to a pipeline in Southeast Asia that had suffered >$1Bn in losses
+        - Leveraged InSAR analysis, Principal Components Analysis, and machine learning techniques to determine the best satellite products to use for the landslide detection workflow
+        - Created a statistically robust methodology, incorporating existing knowledge of landslide occurrences with landslide likelihood analysis, to produce a hazard model identifying high-risk areas to enable pipeline workers to pre-emptively address and mitigate pipeline hazards
     - title: Geosciences Modeling/Analytics Intern
       institution: ConocoPhillips, Houston, Texas
       year: May - August 2021
