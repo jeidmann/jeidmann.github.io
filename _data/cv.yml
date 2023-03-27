@@ -19,13 +19,18 @@
         - Assessed the impact of pre-emptive forest treatment on wildfire intensity and vegetation recovery using Google Earth Engine to perform spatial and time series analyses (>10 years)
         - Conducted a “big data” assessment by combining monthly NDVI imagery to automate yearly change detection analyses across a landscape scale (100s to 1,000 mi2) using Python3 with ArcGIS (ArcPy)
         - Secured over $92K in research funding from 16 fellowships and scholarships
-    - title: Geosciences Modeling/Analytics Intern
+    - title: Graduate Teaching Assistant and Student Mentor
+      institution: Colorado State University, Geology Department, Fort Collins, Colorado
+      year: 2016-2022
+      description:
+        - Taught over 360 students in 11 laboratory sections within the Geosciences department; courses taught included Introductory Geology for Majors, Geomorphology, and Earth History
+        - Mentored 4 senior-level undergraduates in their independent studies and post-college plans
+    - title: Geosciences Modeling/ Remote Sensing Intern
       institution: ConocoPhillips, Houston, Texas
       year: May - August 2021
       description:
-        - Developed a satellite remote sensing-based workflow that predicts the location and timing of landslides to mitigate further damages to a pipeline in Southeast Asia that had suffered >$1Bn in losses
-        - Leveraged InSAR analysis, Principal Components Analysis, and machine learning techniques to determine the best satellite products to use for the landslide detection workflow
-        - Created a statistically robust methodology, incorporating existing knowledge of landslide occurrences with landslide likelihood analysis, to produce a hazard model identifying high-risk areas to enable pipeline workers to pre-emptively address and mitigate pipeline hazards
+        - Built a satellite remote sensing-based workflow that predicts the location and timing of landslides to mitigate further damages to a pipeline in Southeast Asia that had suffered >$1Bn in losses
+        - Devised the landslide detection workflow which merged remote imagery with Principal Components Analysis and Machine Learning techniques to alert on-the-ground managers of pipeline hazards
     - title: Senior Engineering Technician II
       institution: Geosyntec Consultants, Acton, Massachusetts
       year: 2014-2016
