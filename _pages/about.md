@@ -56,7 +56,7 @@ Throughout my `Ph.D.` research I sought to enhance my coding and analytical skil
         {%- include figure.html path="assets/img/QuailEggs.png" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
-  <center>...and four quail</center>
+  <center>...and three quail</center>
 </div>
 
 <div class="container">
