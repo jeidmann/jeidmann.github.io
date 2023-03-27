@@ -78,7 +78,7 @@
         - Other. Data visualization, Applied Multivariate Analysis, Geostatistics, Morphodynamic Modeling, IoT Sensors
     - title: Computer
       items:
-        - Experience with Python3(includes NumPy, Pandas, Matplotlib), SQL, R, MATLAB, Git, Machine Learning algorithms (KNN, Decision Trees, SVM, k-means clustering), ArcGIS (desktop and Pro) with SVM machine learning models, QGIS, Microsoft Suite (Excel, Powerpoint, Word), Earth Volumentric Studio, Agisoft Metashape Structure-from-Motion, SGeMS
+        - Experience with Python3 (includes NumPy, Pandas, Matplotlib), SQL, R, MATLAB, Git, Machine Learning algorithms (KNN, Decision Trees, SVM, k-means clustering), ArcGIS (desktop and Pro) with SVM machine learning models, QGIS, Microsoft Suite (Excel, Powerpoint, Word), Earth Volumentric Studio, Agisoft Metashape Structure-from-Motion, SGeMS
     - title: Statistical Techniques
       items:
         - General linear models, hypothesis testing, multivariate analysis, model selection, kriging, cluster analysis, time series analysis, Markov chain Monte Carlo, logistic regression, Gaussian Process
