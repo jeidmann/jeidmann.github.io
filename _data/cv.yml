@@ -29,8 +29,7 @@
       institution: ConocoPhillips, Houston, Texas
       year: May - August 2021
       description:
-        - Built a satellite remote sensing-based workflow that predicts the location and timing of landslides to mitigate further damages to a pipeline in Southeast Asia that had suffered >$1Bn in losses
-        - Devised the landslide detection workflow which merged remote imagery with Principal Components Analysis and Machine Learning techniques to alert on-the-ground managers of pipeline hazards
+        - Built a satellite remote sensing-based workflow to improve predictions of the location and timing of landslides to mitigate further damages to a pipeline that had suffered significant financial losses. This method merged the use of remote imagery with Principal Components Analysis and Machine Learning techniques to better understand and predict pipeline hazards
     - title: Senior Engineering Technician II
       institution: Geosyntec Consultants, Acton, Massachusetts
       year: 2014-2016
