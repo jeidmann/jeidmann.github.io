@@ -10,6 +10,15 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Data Scientist
+      institution: ChampionX Emission Technologies, Boulder, Colorado
+      year: 2023-Present
+      description:
+        - Developed a source localization algorithm that integrates sensor and environmental data to help clients visualize the most likely source of alerts and leaks.
+        - Created a sensor placement algorithm that allows the client to interactively input site information (e.g. perimeter, roads, buildings, source locations), automatically extract wind data from proprietary and public sources, to present an optimized placement scheme that not only provides recommended placement locations, but allows for the client to choose the ideal number of sensors to meet their detection needs.
+        - Working to develop an improved plume model for quantification of methane emissions.
+        - Regularly assist the sales and customer service team to meet client needs and provide technical support.
+        - Conducted research comparing the accuracy and quality of data associated with different wind sensors.
     - title: Ph.D. and M.S. Researcher
       institution: Colorado State University, Geology Department, Fort Collins, Colorado
       year: 2016-2022
@@ -41,6 +50,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: Visiting Student
+      institution: Colorad State University, Fort Collins, Colorado
+      year: 2024
+      description:
+        - As a professional development opportunity to stay updated with the latest strides in methane emission mitigation, I took part in the course 'SYSE 580A8- Modeling Methane Emissions from Oil and Gas', taught by the Methane Emissions Technology Evaluation Center (METEC) faculty. This course took a deep dive into Monte Carlo methods and mechanistic models employed today to estimate annual methane emissions at an oil and gas facility.
     - title: Ph.D., Geosciences
       institution: Colorado State University, Fort Collins, Colorado
       year: 2018-2022
