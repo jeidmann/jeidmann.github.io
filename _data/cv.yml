@@ -10,9 +10,14 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Senior Data Scientist
+      institution: ChampionX Emission Technologies, Boulder, Colorado
+      year: 2024-present
+      description:
+        - stay tuned!
     - title: Data Scientist
       institution: ChampionX Emission Technologies, Boulder, Colorado
-      year: 2023-Present
+      year: 2023-2024
       description:
         - Developed a source localization algorithm that integrates sensor and environmental data to help clients visualize the most likely source of alerts and leaks.
         - Created a sensor placement algorithm that allows the client to interactively input site information (e.g. perimeter, roads, buildings, source locations), automatically extract wind data from proprietary and public sources, to present an optimized placement scheme that not only provides recommended placement locations, but allows for the client to choose the ideal number of sensors to meet their detection needs.
