@@ -1,8 +1,14 @@
 ---
+- name: "11. Zuki"
+  year: February 2025
+  story: "Zuki is a Aussiedoodle (Australian Shepherd-Poodle mix) with boundless energy. This girl was found as a stray with matted fur that had to be completely shaved down. She loves nothing more than cuddles and romping around the back yard."
+  status: "adopted"
+  image: "/assets/img/IMG_4159.jpeg"
+
 - name: "10. Atlas"
   year: January 2025
-  story: "He was just adopted! "
-  status: "currently fostering"
+  story: "Atlas is a Golden Retriever mix and was in rough shape when we first got him. He had matted fur, was very scared, and overwhelmed. He had clearly never lived in a home before, as he was shocked by TVs, jumped on counters, and did not know to go outside to potty. In the few weeks we had him, he made huge strides and learned how to build confidence and be a dog. "
+  status: "adopted"
   image: "/assets/img/IMG_4159.jpeg"
 
 - name: "9. Wilbur"
