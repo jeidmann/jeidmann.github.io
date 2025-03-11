@@ -38,7 +38,7 @@ In 2023 I joined `ChampionX Emissions Technologies` (formally Scientific Aviatio
 <div class="container">
   <div class="row">
     <div class="col">
-        {%- include figure.html path="assets/img/Family.jpeg" class="img-fluid rounded z-depth-1" caption="Our family loves large dogs (sadly the two St.Bernards have passed away since the photo)"%} 
+        {%- include figure.liquid path="assets/img/Family.jpeg" class="img-fluid rounded z-depth-1" caption="Our family loves large dogs (sadly the two St.Bernards have passed away since the photo)"%} 
     </div>
   </div>
 </div>
@@ -46,16 +46,16 @@ In 2023 I joined `ChampionX Emissions Technologies` (formally Scientific Aviatio
 <div class="container">
   <div class="row justify-content-sm-center">
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/IMG_3252.jpg" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.liquid path="assets/img/IMG_3252.jpg" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/IMG_3114.jpeg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/IMG_3114.jpeg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/IMG_3564.jpeg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/IMG_3564.jpeg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-3">
-        {%- include figure.html path="assets/img/IMG_3961.jpeg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/IMG_3961.jpeg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>...while we are not quite ready to adopt, we love to foster rescue dogs from 'Big Bones Canine Rescue' and offer them a soft landing before finding their forever home.</center>
@@ -64,10 +64,10 @@ In 2023 I joined `ChampionX Emissions Technologies` (formally Scientific Aviatio
 <div class="container">
   <div class="row justify-content-sm-center">
     <div class="col col-sm-4">
-        {%- include figure.html path="assets/img/image1165.png" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.liquid path="assets/img/image1165.png" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col col-sm-4">
-        {%- include figure.html path="assets/img/remodel2.jpg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/remodel2.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>I enjoy remodeling our home (see <b>Instagram</b> link below!)</center>
@@ -76,13 +76,13 @@ In 2023 I joined `ChampionX Emissions Technologies` (formally Scientific Aviatio
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Skiing.jpg" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.liquid path="assets/img/Skiing.jpg" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/IceFishing.jpg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/IceFishing.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Percy1.jpg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/Percy1.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>In the winter I enjoy backcountry skiing and ice fishing. I also like crafting silly things such as a mailbox that looks like our dog.</center>
@@ -91,13 +91,13 @@ In 2023 I joined `ChampionX Emissions Technologies` (formally Scientific Aviatio
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Canoe.jpg" class="img-fluid rounded z-depth-1"%} 
+        {%- include figure.liquid path="assets/img/Canoe.jpg" class="img-fluid rounded z-depth-1"%} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Charly.jpg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/Charly.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-4">
-        {%- include figure.html path="assets/img/Garden1.jpg" class="img-fluid rounded z-depth-1" %} 
+        {%- include figure.liquid path="assets/img/Garden1.jpg" class="img-fluid rounded z-depth-1" %} 
     </div>
   </div>
   <center>In the summer I like to spend time on the water, go on trail runs, and eat fresh produce from our garden!</center>
