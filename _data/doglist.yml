@@ -1,0 +1,68 @@
+---
+- name: "11. Zuki"
+  year: February 2025
+  story: "Zuki is a Aussiedoodle (Australian Shepherd-Poodle mix) with boundless energy. This girl was found as a stray with matted fur that had to be completely shaved down. She loves nothing more than cuddles and romping around the back yard."
+  status: "adopted"
+  image: "/assets/img/IMG_4159.jpeg"
+
+- name: "10. Atlas"
+  year: January 2025
+  story: "Atlas is a Golden Retriever mix and was in rough shape when we first got him. He had matted fur, was very scared, and overwhelmed. He had clearly never lived in a home before, as he was shocked by TVs, jumped on counters, and did not know to go outside to potty. In the few weeks we had him, he made huge strides and learned how to build confidence and be a dog. "
+  status: "adopted"
+  image: "/assets/img/IMG_4159.jpeg"
+
+- name: "9. Wilbur"
+  year: January 2025
+  story: "Wilbur is a Great Pyranees who comes from Texas. We don't know his back story, but he is a good boy with a huge heart."
+  status: "adopted"
+  image: "/assets/img/Wilbur.jpg"
+
+- name: "8. Betty, now Evey"
+  year: December 2024
+  story: "This 11-month-old lady came in severely underweight with her sister, with the owner surrendering because their brother-in-law was threatening to shoot her and her sister. She came in super shy, very hungry, and not used to living indoors. After being treated for worms it was determined that she was heartworm positive. During treatment it was determined that Betty had become pregnant during her transport to the rescue, but it was later determined that the heartworm treatment aborted the pregnancy. This girl went through so much and had a soft landing in Fort Collins with a loving couple and fur brother."
+  status: "adopted"
+  image: "/assets/img/IMG_3961.jpeg"
+
+- name: "7. Twyla, now Calypso"
+  year: September 2024
+  story: "This sweet girl came to the rescue with her litter, but was separated because her siblings picked on her. Once given some space, her spunky personality came out. She was adopted by an amazing owner who intends to train her as a service dog."
+  status: "adopted"
+  image: "/assets/img/IMG_3564.jpeg"
+
+- name: "6. Bubbles"
+  year: July 2024
+  story: "This cute guy was a breeder surrender (his litter didn't sell at a puppy mill). He was the last of the litter left at the shelter, so we swooped him up. Nobody could deny his cuteness though, and he was snatched up fast to a wonderful family living in a retirement community."
+  status: "adopted"
+  image: "/assets/img/IMG_3252.jpg"
+
+- name: "5. Gabby"
+  year: September 2024
+  story: "Gabby was found wandering around as a stray with her doggie friend. They were found living under a bridge in Oklahoma. She was shy at first, but started to warm up with Charly's support"
+  status: "adopted"
+  image: "/assets/img/IMG_3472.jpeg"
+
+- name: "4. Pixie"
+  year: September 2024
+  story: "This girl was given up by her family in California. She came in as the most shy girl ever with an atrocious ear infection. She left us as a loving and playful girl growing in confidence, who gets to be a part of a family with two human sisters."
+  status: "adopted"
+  image: "/assets/img/IMG_3394.jpeg"
+
+- name: "3. Jill"
+  year: August 2024
+  story: "Jill was a 14-year old panda bear with a cleft nose, whose owner passed away after struggling with alcohol and drug addiction. She was originally very depressed to lose her owner, but became the happiest girl in the world when she was swiped up by a family with two young girls, whom she can watch play soccer every weekend in the summer. Cheers to living the best golden years!"
+  status: "adopted"
+  image: "/assets/img/IMG_6978.JPEG"
+
+- name: "2. Betty Boop, now Kona"
+  year: August 2024
+  story: "This girl was found as a new mom, who was limping from an injury that was left untreated by the owner. She was severely underweight, had an eye infection and signs of menge. The owners were convinced by the rescue to surrender her. After evaluation of her leg, it was revealed that she had to undergo an amputation. Despite this past, this lady was the sweetest and most loving soul."
+  status: "adopted"
+  image: "/assets/img/IMG_5316.jpeg"
+
+- name: "1. O'Riley, now Rory"
+  year: July 2024
+  story: "In Texas, someone reported on NextDoor a scene of a dog being attacked. They tracked this dog down and found out that she had puppies. They reached out to the owner, who blamed the dog for slipping out of the rope she was tied to in the back yard. After more prodding, it came out that this dog had puppies that were barely surviving, with some already having passed. O'Riley was one of those puppies who got saved and adopted (mom was saved as well.)"
+  status: "adopted"
+  image: "/assets/img/IMG_3114.jpeg"
+
+---
