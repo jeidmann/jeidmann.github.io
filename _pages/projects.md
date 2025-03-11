@@ -18,7 +18,11 @@ horizontal: true
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% if categorized_projects %}
+    {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% else %}
+    {% assign sorted_projects = [] %}
+  {% endif %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -41,8 +45,11 @@ horizontal: true
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
+{% if site.projects %}
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+{% else %}
+  {% assign sorted_projects = [] %}
+{% endif %}
   <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
