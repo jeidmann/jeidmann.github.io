@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    /* General Styles */
+    body {
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: #333;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .intro {
+      margin-bottom: 20px;
+    }
+
+    /* Dog Entry Styles */
+    .dog-entry {
+      display: flex;
+      align-items: flex-start;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .dog-entry:last-child {
+      border-bottom: none;
+      margin-bottom: 60px;
+    }
+    .dog-image {
+      flex-shrink: 0;
+      width: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 20px;
+      border: 1px solid #ddd;
+    }
+    .dog-content {
+      flex: 1;
+    }
+    .dog-name {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin: 0;
+      color: #222;
+    }
+    .dog-year {
+      font-size: 0.9em;
+      color: #666;
+    }
+    .dog-story {
+      font-size: 1em;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    /* Status Button Styles */
+    .dog-status {
+      margin-top: 10px;
+    }
+    .status-btn {
+      padding: 5px 15px;
+      border-radius: 20px;
+      border: none;
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #fff;
+      cursor: default;
+      text-transform: capitalize;
+    }
+    .status-btn.fostering {
+      background-color: #f39c12; /* Orange */
+    }
+    .status-btn.adopted {
+      background-color: #27ae60; /* Green */
+    }
+
+    /* Footer and Header Styling */
+    .sticky-bottom-footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  {% include header.html %}
+  
+  <!-- Dogs Section -->
+  <div class="container mt-5 dogs-container">
+    <h1>{{ page.title }}</h1>
+    <div class="intro">
+      {{ content }}
+    </div>
+    {% for dog in site.data.doglist %}
+      <div class="dog-entry">
+        <img class="dog-image" src="{{ dog.image }}" alt="{{ dog.name }}">
+        <div class="dog-content">
+          <div class="dog-name">{{ dog.name }}</div>
+          <div class="dog-year">{{ dog.year }}</div>
+          <div class="dog-story">{{ dog.story }}</div>
+          <div class="dog-status">
+            <button class="status-btn {{ dog.status | downcase }}">
+              {{ dog.status }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include footer.html %}
+  {% include scripts/misc.html %}
+</body>
+</html>
