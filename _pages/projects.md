@@ -46,10 +46,11 @@ horizontal: true
 <!-- Display projects without categories -->
 
 {% if site.projects %}
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | sort: "importance" %}
 {% else %}
-  {% assign sorted_projects = [] %}
+{% assign sorted_projects = [] %}
 {% endif %}
+
   <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
