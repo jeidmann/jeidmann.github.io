@@ -13,17 +13,15 @@ profile:
     <p>johanna.eidmann[at]gmail.com</p>
     <p>Fort Collins, Colorado</p>
 
-news: false # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
-
-Hello! I am a `Senior Data Scientist` at ChampionX Emission technologies, primarily working on the SOOFIE continuous monitoring system. As a `geoscientist`, I learned to look at challenges from different angles...quite literally, but also in terms of short- and long time scales. At ChampionX I am applying my creative problem-solving skills with my background of particle transport, and am applying it to the movement of methane particles in the atmosphere. I embrace the `growth mindset` and am always looking to build upon and learn new skills!
+Hello! I am a `Senior Data Scientist` at ChampionX Emission technologies, primarily working on the SOOFIE continuous monitoring system. As a `geoscientist`, I learned to look at challenges from different angles...quite literally, but also in terms of short- and long time scales. At ChampionX I am applying my creative problem-solving skills with my background of particle transport, and am applying it to the movement of methane particles in the atmosphere. I embrace the `growth mindset` and am always looking to build upon and learn new skills! 
 
 During my M.S. and Ph.D., I gained experience conducting data analysis on large and disparate data sets. It was through a diverse breadth of projects that I became adept in `data analysis`, `statistical analysis`, `remote sensing`, and `data visualization`. Please visit the [<b><u>Projects</u></b>](/projects/) page to find out more about the things that I have worked on.
-
 <h4> Background </h4>
-I was born in Germany and grew up in the Boston area. I grew up running cross country and road races (since the 3rd grade) and played the viola in the Boston Youth Symphony Orchestra.
+I was born in Germany and grew up in the Boston area. I grew up running cross country and road races (since the 3rd grade) and played the viola in the Boston Youth Symphony Orchestra. 
 
 I spent my college years exploring the geology of the Berkshires at `Williams College` in Western Massachusetts. However, I also managed to explore Geology across the world, taking part in a field course that traveled across the United States (a camping roadtrip from Pennsylvania to Montana), studying abroad at `ETH Zurich` in Switzerland, and performing undergrad thesis research in Svalbard, Norway (funded through the NSF/REU and Keck Consortium).
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: automated dog ball throwing device
-description: designed and built a dog throwing device for dog self-entertainment.
-img: assets/img/dog_throw.png
-importance: 1
-category: fun
+title: Predicting sediment movement in rivers
+description: I tagged 360 rocks with RFID tags and deployed them in the North St. Vrain River. We track these clasts, and model and statistically analyze sediment transportation. 
+img: assets/img/Fall2019pts.png
+importance: 5
+category: work
 ---
 
 <div class="row justify-content-sm-center">
