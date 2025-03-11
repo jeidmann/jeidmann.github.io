@@ -1,7 +1,7 @@
 ---
 layout: page
 title: quantifying sedimentation using SfM
-description: Volumetrically quantified continue channel sedimentation and change by building and differencing high-resolution 3-d models through drone imagery and Structure-from-Motion analysis.  
+description: Volumetrically quantified continue channel sedimentation and change by building and differencing high-resolution 3-d models through drone imagery and Structure-from-Motion analysis.
 img: assets/img/Capture.png
 importance: 5
 category: work

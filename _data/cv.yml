@@ -48,9 +48,8 @@
       institution: Geosyntec Consultants, Acton, Massachusetts
       year: 2014-2016
       description:
-       - Led groundwater monitoring, soil logging, soil sampling, sub-slab sampling, well installation, & in-situ bioremediation fieldwork at 12 Superfund and Brownfields sites across 7 states
-       - Analyzed soil mercury data using statistical models to produce a recommended sampling approach, and authored a memorandum for the Maine Department of Environmental Protection communicating and synthesizing the approach
-
+        - Led groundwater monitoring, soil logging, soil sampling, sub-slab sampling, well installation, & in-situ bioremediation fieldwork at 12 Superfund and Brownfields sites across 7 states
+        - Analyzed soil mercury data using statistical models to produce a recommended sampling approach, and authored a memorandum for the Maine Department of Environmental Protection communicating and synthesizing the approach
 
 - title: Education
   type: time_table
@@ -87,11 +86,11 @@
   type: nested_list
   contents:
     - title: Certificates
-      items: 
+      items:
         - CSU Graduate Certificate in Statistics and Data Analysis
         - IBM Data Science Professional Certificate (Python for Data Science, AI & Developement, Databases and SQL for Data Science with Python, Machine Learning with Python)
     - title: Relevant Coursework
-      items: 
+      items:
         - Geology. Remote Sensing for Geoscientists, Fluvial Geomorphology, Hydrogeology, Tectonic Geomorphology, Hydrogeology, Sedimentation & Erosion, Solid Earth Inverse Methods
         - Other. Data visualization, Applied Multivariate Analysis, Geostatistics, Morphodynamic Modeling, IoT Sensors
     - title: Computer

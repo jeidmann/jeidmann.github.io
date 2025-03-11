@@ -6,6 +6,7 @@ img: assets/img/BR_Width.png
 importance: 1
 category: work
 ---
+
 <h4> Problem & Background </h4>
 
 `Bedrock river width` is an essential geometric parameter relevant to understanding flood hazards and gauging station rating curves, and is critical to stream power incision models and many other landscape evolution models. Obtaining bedorck river width measurements, however, typically requires extensive field campaigns that take place in rugged and steep topography where river access is often physically challenging. Although previous work has turned to obtaining these measurements from satellite imagery, these data present a snapshot in time (e.g. not necessarily under a particular or desired discharge scenario), are typically limited to rivers >10-30 m wide due to image resolution, and are physically restricted to areas devoid of vegetation. For these reasons, information of bedrock channel width is generally `data limited`, and the factors impacting bedrock channel width remain `poorly understood`. Due to these limitations, researchers often use a width-scaling relationship based on `alluvial` rivers, which form and change differently than `bedrock` rivers.
@@ -35,12 +36,13 @@ A `first step` of the project is to use the DEM to learn more about an area and 
 
 To perform the `model simulation`, we need to create shapefiles of the river at each sampling point, and model channel width across the desired stream reach. Although it is possible to manually do this, doing so is inefficient at a large scale. As a result, we derive a channel segment of desired length at each location, and define cross sections perpendicular to the river at a desired increment.
 
-Once these channel segments are created, we import the data and run the simulations in the HEC-RAS modeling software. HEC-RAS is a freely-available platform created by the U.S. Army Corps of Engineers, and used widely throughout the environmentl consulting industry. Once modeled, data outputs from the simulations can be used to efficiently evaluate trends in channel width across different bedrock types and environments. 
+Once these channel segments are created, we import the data and run the simulations in the HEC-RAS modeling software. HEC-RAS is a freely-available platform created by the U.S. Army Corps of Engineers, and used widely throughout the environmentl consulting industry. Once modeled, data outputs from the simulations can be used to efficiently evaluate trends in channel width across different bedrock types and environments.
 
 <h5> In-Depth Method Overview </h5>
 <i><b> Follow the mark-up document below to step through the code of the process described above! <b><i>
 
 {% raw %}
+
 ```
 %Define files
 selpath='Add path here';
@@ -79,7 +81,7 @@ crita=1e5;
 S= STREAMobj(FD,'minarea',crita./DEM.cellsize^2);
 S=removeshortstreams(S,100);
 mn=0.45; %set concavity index.
-Ao=1; %set reference drainage area you would like to use, 
+Ao=1; %set reference drainage area you would like to use,
 here we use 1 km^2
 smoWin=500; %set smoothing window for Chi analysis.
 
@@ -95,6 +97,7 @@ imageschs(PRECIP); %precipitation
 hold on;
 imageschs(DEMf); %DEM (w/ filled sinks)
 ```
+
 {% endraw %}
 
 <div class="row">
@@ -106,8 +109,8 @@ imageschs(DEMf); %DEM (w/ filled sinks)
     A comparison of precipitation and DEM data layers, overlain by the extracted stream network
 </div>
 
-
 {% raw %}
+
 ```
 %Determine unique geologic formations in your area of analysis.
 Fmn=GEOL.Z(:);
@@ -115,13 +118,13 @@ Fmn(isnan(Fmn))=[];
 Geol_Fmn=unique(Fmn);
 
 %Select all locations based on a defined drainage area
-D_vect=105:500:max(S.distance)-105; Here we select 
+D_vect=105:500:max(S.distance)-105; Here we select
 points every 500 meters along the stream network.
 
-[d_mat]= XS_Selection_Info(DEMf,GEOL,FD,ksnGrid,chiGrid,A,S, D_vect, PRECIP) 
+[d_mat]= XS_Selection_Info(DEMf,GEOL,FD,ksnGrid,chiGrid,A,S, D_vect, PRECIP)
 %this is a sub-routine that I have developed to create a table tha
- includes attributes including: long/lat locations, point index, 
- drainage area at point, average precipitation at the point, elevation 
+ includes attributes including: long/lat locations, point index,
+ drainage area at point, average precipitation at the point, elevation
  at point, average upstream drainage area elevation and steepness,
   as well as the proportion of each unique geologic unit in each
    upstream watershed.
@@ -129,7 +132,7 @@ points every 500 meters along the stream network.
 %Change the matrix to a table
 T-array2table(d_mat);
 
-%Remove all location points that are in bodies of water 
+%Remove all location points that are in bodies of water
 (we want to focus on rivers after all, not reservoir/lakes!)
 E=sum(ismember(T.Properties.VariableNames.'Geol_5'));
 if E>0
@@ -137,9 +140,9 @@ if E>0
     T(L,:)=[];
 end
 
-%The HEC-RAS program (used later) does not work if any river 
-segments overlap. Make sure that we don't have overlapping 
-river segments (e.g. points within ~200m from e/o), and 
+%The HEC-RAS program (used later) does not work if any river
+segments overlap. Make sure that we don't have overlapping
+river segments (e.g. points within ~200m from e/o), and
 remove if we do.
 for i=1:length(T.utm_x)
     idx_check=[];
@@ -156,6 +159,7 @@ end
 %remove the points you extracted in the previous step.
 T(idx_check,:)[];
 ```
+
 {% endraw %}
 
 <div class="row justify-content-sm-left">
@@ -170,19 +174,20 @@ T(idx_check,:)[];
     A look at the extracted sample locations of a given watershed in Puerto Rico. Red dots indicate initially-derived locations, and yellow dots indicate the final sampling locations based on desired filters (e.g. not within water reservoir, or not too close to other locations).
 </div>
 
-
 {% raw %}
+
 ```
-%In another module, we have fit the precipiation and discharge 
-data at each USGS stream gauge location to a model. During 
+%In another module, we have fit the precipiation and discharge
+data at each USGS stream gauge location to a model. During
 this step, we derived the model paramters.
 
-%Here we implement the model parameters at each sampling 
+%Here we implement the model parameters at each sampling
 location to derive specific discharge at each location.
 look_up=T.avg_precip_ix;
 mdl_yhat=mdl_power_b.*mdl_x.^mdl_power_m;
 T.Qsp_fit=interp1(mdl_x,mdl_yhat,lookup,'nearest');
 ```
+
 {% endraw %}
 
 <div class="w-50 p-2">
@@ -195,19 +200,22 @@ T.Qsp_fit=interp1(mdl_x,mdl_yhat,lookup,'nearest');
 </div>
 
 {% raw %}
+
 ```
 %Determine the desired spacing of each cross section of your shapefile.
 XS_space=10; %here we designate a 10m spacing.
-[Output]=XS_Creator(S,DEMf,GEOL,Index_Table, XS_space, SX_width); 
-%here I have created a function that automatically creates 
-stream shapefiles at each location, as well as cross sections 
+[Output]=XS_Creator(S,DEMf,GEOL,Index_Table, XS_space, SX_width);
+%here I have created a function that automatically creates
+stream shapefiles at each location, as well as cross sections
 spaced 10m apart.
 
 %Once the shapefiles have been created, we can extract discharge,
- as well as the estimated downstream water elevation--two parameters 
+ as well as the estimated downstream water elevation--two parameters
  that are required for the HEC-RAS modeling software.
 ```
+
 {% endraw %}
+
 <div class="container">
     <div class="row">
         <div class="col">

@@ -8,7 +8,6 @@ importance: 3
 category: work
 ---
 
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Construction.png" class="img-fluid rounded z-depth-1" %}

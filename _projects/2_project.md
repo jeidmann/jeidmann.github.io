@@ -6,8 +6,9 @@ img: assets/img/wildfire.png
 importance: 2
 category: work
 ---
+
 <h2>Analysis Description</h2>
-As part of the Southwest Climate Adaptation Science Center, I took part in a collaborative research fellowship. Working with a group of 7 other fellows, we analyzed the relationship between fire and society. Throughout our analysis, we learned about the role that fire plays for ecosystem health and culture from the standpoint of indiginous people. We also applied a more quantitative assessment of climate change trends and the impacts of fire treatments. In this project, my main contribution was through analysis of the Rodeo-Chediski fire, where I analyzed the spatial and temporal impacts of pre-emptive perscribed burns as wildfire treatment techniques. 
+As part of the Southwest Climate Adaptation Science Center, I took part in a collaborative research fellowship. Working with a group of 7 other fellows, we analyzed the relationship between fire and society. Throughout our analysis, we learned about the role that fire plays for ecosystem health and culture from the standpoint of indiginous people. We also applied a more quantitative assessment of climate change trends and the impacts of fire treatments. In this project, my main contribution was through analysis of the Rodeo-Chediski fire, where I analyzed the spatial and temporal impacts of pre-emptive perscribed burns as wildfire treatment techniques.
 
 <h3>The Rodeo-Chediski Fire</h3>
 The wildfire, which burned 462,600 acres between June 18 and July 7, 2002, was the culmination of two human-induced ignitions. The prolonged drought during that time period enhanced the spread of the fire across the Mogollon Rim; a high elevation and forested region of Arizona.
@@ -15,6 +16,7 @@ The wildfire, which burned 462,600 acres between June 18 and July 7, 2002, was t
 At the time of the fire, the Rodeo-Chediski fire was the largest and most destructive fire in Arizona's history.
 
 Consequences of the fire include:
+
 <ul>
     <li>Destruction of 500 homes, evacuation of 30,000 people.</li>
     <li>Decrease of soil infiltration rates up to 3 years post-fire, causing peak storm flows of historical magnitude.</li>
@@ -52,9 +54,9 @@ Analysis reveals an overall trend that treated areas (e.g. prescribed burn areas
 </div>
 
 <h4>Comparing Vegetation Recovery Through the Normalized Difference Vegetation Index (NDVI)</h4>
-The NDVI can provide insight into relative 'greenness' or vegetation health, with higher values generally indicating healthier vegetation. 
+The NDVI can provide insight into relative 'greenness' or vegetation health, with higher values generally indicating healthier vegetation.
 
-A comparison of the relative proportion of area according to NDVI illustrates post-fire vegetation recovery. 
+A comparison of the relative proportion of area according to NDVI illustrates post-fire vegetation recovery.
 
 Initially, areas with no fire treatment had a higher proportion of healthy vegetation (see 'Before Fire').
 
@@ -84,7 +86,7 @@ Landcover Classification was extracted from MODIS Terra and Aqua reflectance dat
 
 Across almost all analyzed areas, the fire caused an initial decrease in Savannas and increase in Grasslands.
 
-Analyses reveal variability in the dominant land cover across 'Prescribed' vs. 'No Treatment' areas. Whereas fluctuations do occur in 'Prescribed' areas, the proportions of landcover type in these areas are comparable pre-fire and 9 years post-fire. 
+Analyses reveal variability in the dominant land cover across 'Prescribed' vs. 'No Treatment' areas. Whereas fluctuations do occur in 'Prescribed' areas, the proportions of landcover type in these areas are comparable pre-fire and 9 years post-fire.
 
 'No Treatment' areas show more long-term changes in landcover type. This is especially evident in 'No Treatment 4'--the area of highest burn intensity.
 

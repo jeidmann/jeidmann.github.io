@@ -1,7 +1,7 @@
 ---
 layout: page
 title: understanding erosion rates across Puerto Rico
-description: Collaborating with research groups at the University of Puerto Rico, Purdue, and the University of Vermont to better understand changes in erosion rates across Puerto Rico. 
+description: Collaborating with research groups at the University of Puerto Rico, Purdue, and the University of Vermont to better understand changes in erosion rates across Puerto Rico.
 img: assets/img/Cosmo.png
 importance: 6
 category: work
