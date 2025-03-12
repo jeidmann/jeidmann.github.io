@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "I have worked on a breadth of interesting projects--experiences gained through fellowships, my own research, and hobby projects. Browse below to see what I have worked on, and click on the project names to learn more about them!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -37,7 +37,107 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+      
+        title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+        
+      },
+    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+      
+        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+        
+      },
+    },{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "projects-bringing-topotoolbox-to-python",
+          title: 'Bringing topotoolbox to Python',
+          description: "Topotoolbox is an open-source topographic analysis program that only works in MATLAB. I am working with Dr. Sean Gallen to re-code programs into Python3.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-predicting-sediment-movement-in-rivers",
+          title: 'Predicting sediment movement in rivers',
+          description: "I tagged 360 rocks with RFID tags and deployed them in the North St. Vrain River. We track these clasts, and model and statistically analyze sediment transportation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-quantifying-sedimentation-using-sfm",
+          title: 'quantifying sedimentation using SfM',
+          description: "Volumetrically quantified continue channel sedimentation and change by building and differencing high-resolution 3-d models through drone imagery and Structure-from-Motion analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-automated-bedrock-channel-width-extraction",
+          title: 'Automated Bedrock Channel Width Extraction',
+          description: "Remotely extract wetted channel width at desired discharge scenarios without going into the field.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-how-pre-emptive-fire-treatment-affects-wildfires",
+          title: 'how pre-emptive fire treatment affects wildfires',
+          description: "Spatial and temporal analysis of the  Rodeo-Chediski fire using MODIS and Lansat imagery and vegetation regrowth (NDVI).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-low-cost-amp-efficient-weather-stations-for-research",
+          title: 'low-cost &amp;amp; efficient weather stations for research',
+          description: "A collaboration with Jay Ham&#39;s laboratory (CSU, Soil and Crop Sciences) to implement low-cost sensors across Puerto Rico.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-understanding-what-drives-bedrock-channel-width",
+          title: 'understanding what drives bedrock channel width',
+          description: "Island-wise analysis in Puerto Rico, exploring &gt;40,000 locations across &gt;200 km^2 to understand what factors shape the rivers in channels.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-the-impact-of-reservoir-management-on-sediment-mobility",
+          title: 'the impact of reservoir management on sediment mobility',
+          description: "Understanding the movement of stored sediment after a storm, and how reservoir management shapes its movement within a drinking water reservoir.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-understanding-erosion-rates-across-puerto-rico",
+          title: 'understanding erosion rates across Puerto Rico',
+          description: "Collaborating with research groups at the University of Puerto Rico, Purdue, and the University of Vermont to better understand changes in erosion rates across Puerto Rico.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-automated-dog-ball-throwing-device",
+          title: 'automated dog ball throwing device',
+          description: "designed and built a dog throwing device for dog self-entertainment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-hot-tub-temperature-alert-system",
+          title: 'hot tub temperature alert system',
+          description: "Get a text notification when the hot tub falls below a certain limit, no matter where you are in the world! Using &#39;If That Then&#39; technology.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-temperature-sensitive-heat-system",
+          title: 'temperature sensitive heat system',
+          description: "To limit fire hazards of a heat lamp in a quail coop, I designed and implemented a temperature-regulated heat lamp to keep our egg-laying girls warm.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%6F%68%61%6E%6E%61.%65%69%64%6D%61%6E%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
